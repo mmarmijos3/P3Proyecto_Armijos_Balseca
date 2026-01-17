@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "69405c1ed84aaf1a7f2f5b2e"
+  },
+  "name": "Ever Given",
+  "imo": "9811000",
+  "length": 399.94,
+  "type": "CONTAINER",
+  "capacityTEU": 20124,
+  "containers": 18300
+},
+{
+  "_id": {
+    "$oid": "69405ce3d84aaf1a7f2f5b30"
+  },
+  "name": "Wonder of the Seas",
+  "imo": "9838785",
+  "length": 362.04,
+  "type": "CRUISE",
+  "passengerCapacity": 6988,
+  "passengers": 5200
+},
+{
+  "_id": {
+    "$oid": "69405d52d84aaf1a7f2f5b31"
+  },
+  "name": "COSCO",
+  "imo": "9795610",
+  "length": 399.67,
+  "type": "CONTAINER",
+  "capacityTEU": 21237,
+  "containers": 19000
+},
+{
+  "_id": {
+    "$oid": "69405d9cd84aaf1a7f2f5b32"
+  },
+  "name": "OOCL Hong Kong",
+  "imo": "9775189",
+  "length": 399.87,
+  "type": "CONTAINER",
+  "capacityTEU": 21413,
+  "containers": 19800
+},
+{
+  "_id": {
+    "$oid": "69405dbed84aaf1a7f2f5b33"
+  },
+  "name": "CMA CGM",
+  "imo": "9863297",
+  "length": 399.9,
+  "type": "CONTAINER",
+  "capacityTEU": 23000,
+  "containers": 21000
+},
+{
+  "_id": {
+    "$oid": "69405ddbd84aaf1a7f2f5b34"
+  },
+  "name": "MSC Grandiosa",
+  "imo": "9803613",
+  "length": 331.43,
+  "type": "CRUISE",
+  "passengerCapacity": 6334,
+  "passengers": 4800
+},
+{
+  "_id": {
+    "$oid": "69405e00d84aaf1a7f2f5b35"
+  },
+  "name": "AIDAnova",
+  "imo": "9781865",
+  "length": 337,
+  "type": "CRUISE",
+  "passengerCapacity": 6600,
+  "passengers": 4200
+},
+{
+  "_id": {
+    "$oid": "69405e1fd84aaf1a7f2f5b36"
+  },
+  "name": "Norwegian Encore",
+  "imo": "9751511",
+  "length": 333.46,
+  "type": "CRUISE",
+  "passengerCapacity": 3998,
+  "passengers": 3200
+}]
