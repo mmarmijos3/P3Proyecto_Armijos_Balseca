@@ -1,7 +1,7 @@
 package Model;
 
 
-public class ContainerShipBuilder {
+public class ContainerShipBuilder extends VesselBuilder{
     private VesselInfo info;
     private VesselDimensions dimensions;
     private int capacityTEU;
@@ -27,6 +27,7 @@ public class ContainerShipBuilder {
         return this; 
     }
 
+    @Override
     public ContainerShip build() {
         return new ContainerShip(info, dimensions, capacityTEU, currentContainers);
     }

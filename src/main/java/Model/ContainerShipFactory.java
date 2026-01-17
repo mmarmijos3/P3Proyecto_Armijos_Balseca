@@ -4,13 +4,8 @@ package Model;
 public class ContainerShipFactory extends VesselFactory {
 
     @Override
-    public Vessel createVessel(VesselInfo info, VesselDimensions dimensions, int capacity, int quantity) {
+    public Vessel createVessel(VesselBuilder builder) {
 
-        return new ContainerShipBuilder()
-                .info(info)
-                .dimensions(dimensions)
-                .capacityTEU(capacity)
-                .currentContainers(quantity)
-                .build();
+        return builder.build();
     }
 }

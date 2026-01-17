@@ -4,13 +4,8 @@ package Model;
 public class CruiseShipFactory extends VesselFactory {
 
     @Override
-    public Vessel createVessel(VesselInfo info, VesselDimensions dimensions, int capacity, int quantity) {
+    public Vessel createVessel(VesselBuilder builder) {
 
-        return new CruiseShipBuilder()
-                .info(info)
-                .dimensions(dimensions)
-                .passengerCapacity(capacity)
-                .currentPassengers(quantity)
-                .build();
+        return builder.build();
     }
 }
