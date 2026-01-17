@@ -5,7 +5,7 @@ package Model;
  *
  * @author Manfred Armijos
  */
-public class CruiseShipBuilder {
+public class CruiseShipBuilder extends VesselBuilder{
     private VesselInfo info;
     private VesselDimensions dimensions;
     private int passengerCapacity;
@@ -31,6 +31,7 @@ public class CruiseShipBuilder {
         return this; 
     }
 
+    @Override
     public CruiseShip build() {
         return new CruiseShip(info, dimensions, passengerCapacity, currentPassengers);
     }
