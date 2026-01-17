@@ -28,8 +28,5 @@ public class Documentation {
                 .append("passengerCapacity", cruiseShip.getPassengerCapacity()) // Maximum passenger capacity
                 .append("passengers", cruiseShip.getCurrentPassengers());              // Current number of passengers on board
     }
-    
-    public void saludo(){
-        System.out.println("Hello");
-    }
+
 }
