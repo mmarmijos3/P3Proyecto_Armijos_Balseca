@@ -8,7 +8,6 @@ public abstract class Vessel implements IDockable {
 
     private final VesselInfo info;
     private final VesselDimensions dimensions;
-    // veASE
 
     protected Vessel(VesselInfo info, VesselDimensions dimensions) {
         this.info = info;
