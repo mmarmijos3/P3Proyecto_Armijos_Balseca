@@ -1,7 +1,7 @@
 package Model;
 
 
-public class ContainerShipBuilder extends VesselBuilder{
+public class ContainerShipBuilder implements VesselBuilder{
     private VesselInfo info;
     private VesselDimensions dimensions;
     private int capacityTEU;

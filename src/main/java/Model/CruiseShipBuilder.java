@@ -5,7 +5,7 @@ package Model;
  *
  * @author Manfred Armijos
  */
-public class CruiseShipBuilder extends VesselBuilder{
+public class CruiseShipBuilder implements VesselBuilder{
     private VesselInfo info;
     private VesselDimensions dimensions;
     private int passengerCapacity;
